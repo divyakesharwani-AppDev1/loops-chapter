@@ -4,3 +4,22 @@
 # for multiples of three print "Fizz" instead of the number
 #   for multiples of five print "Buzz" instead of the number
 #   for numbers which are multiples of both three and five print "FizzBuzz"
+
+counter = 0
+
+while counter< 100
+  counter = counter + 1
+  if counter%15 == 0 
+    p "FizzBuzz"
+  elsif counter%5 == 0
+    p "Buzz"
+  elsif counter%3 == 0
+    p "Fizz"
+  else 
+    p counter
+  end
+end
+
+
+
+

@@ -19,3 +19,12 @@
 
 p "Enter a number:"
 
+user_input = gets.chomp
+
+counter = 1
+multiple = 0
+
+while counter<= 10
+  p multiple = multiple+user_input.to_i
+  counter = counter + 1
+end
